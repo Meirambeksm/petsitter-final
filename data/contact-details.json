@@ -1,0 +1,44 @@
+{
+  "contact-details": [
+    {
+      "id": "0001",
+      "email": "meirambek@example.com",
+      "firstName": "Meirambek",
+      "lastName": "Mukhtarov",
+      "phone": "88-88-88",
+      "pet": "cat"
+    },
+    {
+      "id": "0002",
+      "email": "aizhan@example.com",
+      "firstName": "Aizhan",
+      "lastName": "Zhakypbaeva",
+      "phone": "99-99-99",
+      "pet": "dog"
+    },
+    {
+      "id": "0003",
+      "email": "aiza@example.com",
+      "firstName": "Aiza",
+      "lastName": "Sungat",
+      "phone": "77-77-77",
+      "pet": "cat"
+    },
+    {
+      "id": "0004",
+      "email": "aisha@example.com",
+      "firstName": "Aisha",
+      "lastName": "Sungat",
+      "phone": "11-11-11",
+      "pet": "dog"
+    },
+    {
+      "id": "0005",
+      "email": "aida@example.com",
+      "firstName": "Aida",
+      "lastName": "Sungat",
+      "phone": "22-22-22",
+      "pet": "dog"
+    }
+  ]
+}

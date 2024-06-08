@@ -1,0 +1,77 @@
+.product {
+  margin: 2.5rem;
+  padding: 2.5rem 5rem;
+  background-color: var(--color-dark--1);
+  min-height: calc(100vh - 5rem);
+}
+
+.product section {
+  width: clamp(80rem, 80%, 90rem);
+  margin: 6rem auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 7rem;
+  align-items: center;
+}
+
+.video {
+  margin-bottom: 5rem;
+}
+
+.product h2 {
+  font-size: 4rem;
+  line-height: 1.2;
+  margin-bottom: 3rem;
+}
+
+.product p {
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+
+.product section a {
+  margin-top: 2rem;
+}
+
+.answer {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 5rem;
+}
+.option {
+  display: none;
+}
+
+.option:checked + .label {
+  background-color: var(--color-brand--2);
+  color: white;
+}
+
+.option:checked + .label::before {
+  height: 0.96rem;
+  width: 0.96rem;
+  border: 0.6rem solid white;
+  background-color: var(--color-brand--2);
+}
+
+.label {
+  position: relative;
+  color: var(--color-brand--2);
+  font-family: sans-serif;
+  font-size: 1.8rem;
+  border: 0.12rem solid var(--color-brand--2);
+  border-radius: 0.3rem;
+  padding: 0.6rem 3rem;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.label:before {
+  content: "";
+  height: 1.8rem;
+  width: 1.8rem;
+  border: 0.18rem solid var(--color-brand--2);
+  border-radius: 50%;
+  margin-right: 1.2rem;
+}
